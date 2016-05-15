@@ -1,0 +1,36 @@
+{
+  "name": "inlinebot-hello",
+  "version": "0.0.2",
+  "description": "Hello!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inlinebot/inlinebot-hello.git"
+  },
+  "keywords": [
+    "line",
+    "bot",
+    "api",
+    "node",
+    "node.js",
+    "inline",
+    "sdk",
+    "example",
+    "simple",
+    "hello"
+  ],
+  "author": "Rollables",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inlinebot/inlinebot-hello/issues"
+  },
+  "homepage": "https://github.com/inlinebot/inlinebot-hello",
+  "dependencies": {
+    "inline-sdk": "~0.0.5"
+  },
+  "devDependencies": {}
+}
