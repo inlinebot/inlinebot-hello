@@ -13,10 +13,10 @@ inline.onCommand((type, payload, context) => {
   const random = Math.random() * 2;
 
   if (random < 0) {
-    context.sendImage(imageUrl, imageUrl1);
+    context.sendImage(imageUrl1, imageUrl1);
   } else if (random < 1) {
-    context.sendImage(imageUrl, imageUrl2);
+    context.sendImage(imageUrl2, imageUrl2);
   } else {
-    context.sendImage(imageUrl, imageUrl3);
+    context.sendImage(imageUrl3, imageUrl3);
   }
 });
